@@ -45,7 +45,7 @@ transfert_backup(){
 #}
 
 # boucle for qui effectue l'action
-for id_vm in 104 105 110 125 126 128 129 132 134 136 137 138 161 191 200 292 295 293 294
+for id_vm in 161 191 200 292 295 293 294
 do
   echo " VM $id_vm en cours "
 
