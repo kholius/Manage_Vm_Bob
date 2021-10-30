@@ -18,7 +18,7 @@ read -p " Nom du profil Root du second hyperviseur " name_cbob_root2
 # faire une Backup de la VM selectionnée en cours
 make_backup(){
 
-    echo " Oh shit, here we go agaiiin ..."
+    echo " Ah shit, here we go agaiiin ..."
 
     cd /var/lib/vz/dump/
 
@@ -45,7 +45,7 @@ transfert_backup(){
 #}
 
 # boucle for qui effectue l'action
-for id_vm in 101 102 103 104 105 110 125 126 128 129 132 134 135 136 137 138 161 191 200 292 295 293 294
+for id_vm in 104 105 110 125 126 128 129 132 134 136 137 138 161 191 200 292 295 293 294
 do
   echo " VM $id_vm en cours "
 
